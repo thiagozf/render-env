@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: render-env
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
